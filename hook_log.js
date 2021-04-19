@@ -88,7 +88,7 @@ function main() {
     //frida -U -f com.xx.xx --no-pause -l hook_log.js > out.log
     var targetClass="android.util.Log";
     var a=["d","e","i","v","w"];
-    hook_all_method(targetClass);
+    hook_all_method("android.content.Context");
     //hookAllOverloads("android.util.Log","e");
 }
 setImmediate(main);
