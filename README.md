@@ -1,3 +1,7 @@
+# 基础配置
+python 3
+frida 12.8.0
+
 # 说明
 ```
 .  
@@ -11,6 +15,7 @@
 hook_applist.js hook应用列表接口java.lang.Runtime.exec  
 hook_log.js hook Log类  
 hook_mac.js hook mac地址  
+hook_permission.js hook permission 权限使用位置
 
 源码搜索：http://androidxref.com/
 frida代码提示 `npm install --save @types/frida-gum`
